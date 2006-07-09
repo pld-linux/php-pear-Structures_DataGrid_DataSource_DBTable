@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - DataSource driver using PEAR::DB_Table
 Summary(pl):	%{_pearname} - Sterownik DataSource do PEAR::DB_Table
 Name:		php-pear-%{_pearname}
-Version:	0.1.0
+Version:	0.1.1
 Release:	1
 License:	PHP License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	7bfe6d438af5461e67961b4bea8f237c
+# Source0-md5:	9e2fa83e43aec548c39f6a8161d4db05
 URL:		http://pear.php.net/package/Structures_DataGrid_DataSource_DBTable/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
