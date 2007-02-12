@@ -4,7 +4,7 @@
 %define		_status		beta
 %define		_pearname	Structures_DataGrid_DataSource_DBTable
 Summary:	%{_pearname} - DataSource driver using PEAR::DB_Table
-Summary(pl):	%{_pearname} - Sterownik DataSource do PEAR::DB_Table
+Summary(pl.UTF-8):   %{_pearname} - Sterownik DataSource do PEAR::DB_Table
 Name:		php-pear-%{_pearname}
 Version:	0.1.5
 Release:	1
@@ -28,7 +28,7 @@ PEAR::DB_Table.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
+%description -l pl.UTF-8
 Ten pakiet dostarcza sterownik do PEAR::DB_Table dla
 Structures_DataGrid.
 
